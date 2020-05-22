@@ -1,0 +1,431 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	background-color:#000;
+}
+
+.navbar-brand a{
+	color:#AC7C7A;
+}
+.navbar-brand a:hover{
+	color: #cad2c5;
+	text-decoration:none;
+}
+.navbar-trans {
+  background-color: transparent;
+  border: none;
+  transition: top 1s ease;
+}
+ 
+/*double row*/
+.navbar-doublerow > .navbar{
+	display: block;	
+	padding: 0px auto;
+	margin: 0px auto;
+	min-height: 25px;
+}
+.navbar-doublerow .nav{
+	padding: 0px auto;
+}
+.navbar-doublerow .dividline{
+  margin: 5px 100px;
+  padding-top: 1px;
+  background-color: inherit;
+}
+/*top nav*/
+.navbar-doublerow .navbar-top ul>li>a {
+	padding: 10px auto;
+	font-size: 12px;
+} 
+/*down nav*/
+.navbar-doublerow .navbar-down .navbar-brand {
+	padding: 0px auto;
+	float: left;
+	color: #cad2c5;
+	font-size: 32px;
+}
+.navbar-doublerow .navbar-down ul>li>a{
+	font-size: 16px;
+	color: #cad2c5;
+	transition: border-bottom .2s ease-in , transform .2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul>li>a:hover{
+	border-bottom: 1px solid #cad2c5;
+	color: #cad2c5;
+}
+
+.navbar-doublerow .navbar-down .dropdown{
+    padding: 5px;
+    color: #000;
+}
+.navbar-doublerow .navbar-down .dropdown ul>li>a,
+.navbar-doublerow .navbar-down .dropdown ul>li>a:hover{
+  color: #000;
+  border-bottom: none;
+}
+/*.navbar-doublerow.navbar-trans.afterscroll {
+}	*/
+.navbar-doublerow.navbar-trans.afterscroll {
+   top:-50px;
+}	
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-item {
+}
+/*text*/
+.text-white,.text-white-hover:hover{color:#fff!important}
+/*fontcolor*/
+.light-grey {color:#000!important;background-color:#E6E9ED!important}
+
+
+
+/*-------HEADER------*/
+header{
+	width:100%;
+	min-height:700px;
+	height:100%;
+}
+.entrada{
+	text-align:center;
+	padding:10px;
+	margin-top:250px;
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	background-color:rgba(0,0,0,0.2);
+}
+.entrada1{
+	text-align:center;
+	font-size:40px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+.entrada2{
+	text-align:center;
+	font-size:25px;
+	color: #cad2c5;
+	text-transform:uppercase;
+}
+.entradaBis{
+	text-align:center;
+	padding:10px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	background-color:rgba(0,0,0,0.2);
+}
+.entradaBis1{
+	text-align:center;
+	font-size:20px;
+	color:#FFF;
+}
+
+/*-----APROPOS-------*/
+	
+.premier{
+	background-color:#FFF;
+}
+.qui{
+	
+	padding:15px;
+	text-align:center;
+	background-color:transparent;
+	font-size:18px;
+	margin-bottom:70px;
+}
+.premier h1{
+	margin-top:70px;
+	margin-bottom:50px;
+	text-align:center;
+	color:#2f3e46;
+	}
+.qui p{	
+	color:#354f52;
+}
+
+/*-----CITAS----*/
+.divCitas{
+	background-image:url(../img/bien_etre_op.jpg);
+	height:310px;
+	background-color:#000;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.citasText{
+	font-size:20px;
+	text-align:center;
+	padding:10px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	height:230px;
+	color: #cad2c5;
+}
+/*---BIEN ETRE---*/
+.second{
+	/*background-image:url(../img/bien_etre_op.jpg);*/
+	background-color:#FFF;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:580px;
+	}
+.second p{
+	padding:15px;
+	text-align:center;
+	background-color:transparent;
+	font-size:18px;
+	margin-bottom:70px;
+}
+.second h1{
+	margin-top:70px;
+	margin-bottom:50px;
+	text-align:center;
+	color:#cad2c5;
+}
+
+
+/*------BIEN ETRE TABLE----------*/
+.line{
+	height:1px;
+	background-color:#354f52;
+	max-width:850px;
+	margin:auto;
+}
+.iconText{
+	display:inline-block;
+	text-align:center;
+	height:100px;
+	color:#354f52;
+}
+.iconSize{
+	font-size:40px;
+}
+.inlineTable{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+	border:none;
+}
+.tab-content h3{
+	text-align:center;
+	margin:40px;
+	color:#354f52;
+}
+.tab-content p{
+	color:#354f52;
+}
+.bien h1{
+	color:#2f3e46;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color:transparent;
+	color:#AC7C7A;
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+}
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:focus, 
+.nav-tabs > li.active > a:hover {
+    color: #AC9C7A;
+    cursor: default;
+    background-color:transparent;
+    border: none;
+}
+
+/*------ANTHROPEDIA------*/
+.anthropedia{
+	padding:10px;
+	font-size:18px;
+	color:#354f52;
+}
+.anthro{
+	margin-bottom:50px;
+}
+.anthro h1{
+	text-align:center;
+	margin-top:70px;
+	margin-bottom:50px;
+}
+
+/*-------HISTOIRY---*/
+.histoire{
+	padding:10px;
+	font-size:18px;
+	color:#354f52;
+}
+.histoire h1{
+	margin-top:70px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.histoire p{
+	margin-top:50px;
+	margin-bottom:50px;
+	padding:10px;
+}
+.histDiv{
+	width:650px;
+	height:380px;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*------ABAJO-------*/
+.abajo{
+	background-color:#2f3e46;
+	min-height:800px;
+}
+.abajo h1{
+	margin-top:70px;
+	margin-bottom:50px;
+	color:#FFF;
+}
+.abajo h3{
+	margin-top:150px;
+	margin-bottom:50px;
+	color: #cad2c5;
+}
+.abajo p{
+	font-size:18px;
+	color: #cad2c5;
+}
+.abajo label{
+	color:#AC7C7A;
+}
+.antLogo{
+	margin-top:150px;
+	margin-right:100px;
+	float:right;
+}
+
+/*-----CAROUSEL------*/
+.carouselCont{
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	height:290px;
+	background-color:transparent;
+}
+.owl-nav{
+	
+	margin-top:10px;
+}
+.owl-dots{
+		display:none;
+}
+
+.upChevron{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:3%;
+	right:3%;
+	background-color:rgba(0,0,0,0.1);
+	border-radius:10px;
+	z-index:50;
+	color:#AC7C7A;
+	text-align:center;
+	padding-top:7px;
+}
+.upChevron a{
+	color:#AC7C7A;	
+}
+.upChevron a:hover{
+	color:#cad2c5;
+}
+.upIcon{
+color:#AC7C7A;
+font-size:15px;
+
+}
+
+@media screen and (max-width: 767px){
+	.navbar-brand{
+		padding:3px;
+	}
+	.logoTipo{
+		width:40px;
+		height:40px;
+	}
+	.pIn{
+		display:none;
+	}	
+	a.iconText {
+    display:inline-block;
+    text-align: center;
+    height: 50px;
+    color: #354f52;
+}
+	.iconSize {
+    font-size: 20px;
+}
+	.histDiv{
+		width:340px;
+		height:230px;
+	}
+	.carouselCont{
+	width:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	height:350px;
+	background-color:transparent;
+}
+.entrada{
+	text-align:center;
+	padding:10px;
+	margin-top:250px;
+	margin-left:auto;
+	margin-right:auto;
+	width:360px;
+	background-color:rgba(0,0,0,0.2);
+}
+.entrada1{
+	text-align:center;
+	font-size:30px;
+	color:#FFF;
+	text-transform:uppercase;
+}
+.entrada2{
+	text-align:center;
+	font-size:20px;
+	color: #cad2c5;
+	text-transform:uppercase;
+}
+.entradaBis{
+	text-align:center;
+	padding:10px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:200px;
+	background-color:rgba(0,0,0,0.2);
+}
+.entradaBis1{
+	text-align:center;
+	font-size:16px;
+	color:#FFF;
+}
+.citasText{
+	width:360px;
+}
+.divCitas{
+	height:330px;	
+}
+.carousel-indicators{
+	bottom: -7px;
+}
+
+}
